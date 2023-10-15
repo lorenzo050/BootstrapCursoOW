@@ -21,25 +21,23 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="row">
 
-      
-     
-
+      <!-- Si se pone ORDER-"" hay que ponerslo a todos las filas ya que si no no siguen el orden conjutamente CSS -->
 
 
-      <div class="row">
-        <div class=" col-md-3  red"></div>
-        <div class=" col-md-2 celda black"></div>
-        <div class="w-100"></div>
-        <div class=" col-md-2 celda red"></div>
-
-        <div class=" col-md-2  black"></div>
+      <div class="col-md-4 order-3 order-md-3">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur.
       </div>
-
-
+      <div class="col-md-4 order-2 order-md-1"><h1>REORDENANDO COLUMNAS</h1></div>
+      <div class="col-md-4 order-1 order-md-2">
+        <h1>SUPUESTA IMAGEN COLUMNAS</h1>
+      </div>
     </div>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
