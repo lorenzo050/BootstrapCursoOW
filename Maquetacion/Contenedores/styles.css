@@ -1,0 +1,13 @@
+.container {
+    background-color: red;
+    color: white;
+    height: 200px;
+    text-align: center;
+}
+
+.container-fluid {
+    background-color: red;
+    color: white;
+    height: 200px;
+    text-align: center;
+}
